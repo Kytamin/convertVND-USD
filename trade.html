@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td><h4>Amount</h4></td>
+        <td><h4>From Currency</h4></td>
+        <td><h4>To Currency</h4></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input id="aom" type="text"></td>
+        <td><select id="fromcurrency">
+            <option  value="VND"><p>VND</p></option>
+            <option  value="USD"><p>USD</p></option>
+        </select>
+        </td>
+        <td><select id="tocurrency">
+            <option  value="VND"><p>VND</p></option>
+            <option  value="USD"><p>USD</p></option>
+
+        </select>
+        </td>
+        <td><button onclick="trade()"><h3>Convert</h3></button></td><br>
+
+    </tr>
+</table>
+<p id="result"></p>
+
+</body>
+</html>
+<script src="trade.js"></script>
